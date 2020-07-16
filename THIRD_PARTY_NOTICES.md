@@ -1,3 +1,151 @@
+# Third Party Notices
+
+The New Relic SuperAgent Instrumentation uses source code from third party libraries which carry
+their own copyright notices and license terms. These notices are provided
+below.
+
+In the event that a required notice is missing or incorrect, please notify us
+by e-mailing [open-source@newrelic.com](mailto:open-source@newrelic.com).
+
+For any licenses that require the disclosure of source
+code, the source code can be found at [https://github.com/newrelic/node-newrelic-superagent](https://github.com/newrelic/node-newrelic-superagent).
+
+## Content
+
+**[dependencies](#dependencies)**
+
+* [methods](#methods)
+
+**[devDependencies](#devDependencies)**
+
+* [@newrelic/test-utilities](#newrelictest-utilities)
+* [eslint](#eslint)
+* [newrelic](#newrelic)
+* [semver](#semver)
+* [superagent](#superagent)
+* [tap](#tap)
+
+
+## dependencies
+
+### methods
+
+This product includes source derived from [methods](https://github.com/jshttp/methods) ([v1.1.2](https://github.com/jshttp/methods/tree/v1.1.2)), distributed under the [MIT License](https://github.com/jshttp/methods/blob/v1.1.2/LICENSE):
+
+```
+(The MIT License)
+
+Copyright (c) 2013-2014 TJ Holowaychuk <tj@vision-media.ca>
+Copyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+```
+
+
+## devDependencies
+
+### @newrelic/test-utilities
+
+This product includes source derived from [@newrelic/test-utilities](https://github.com/newrelic/node-test-utilities) ([v3.3.0](https://github.com/newrelic/node-test-utilities/tree/v3.3.0)), distributed under the [proprietary License](https://github.com/newrelic/node-newrelic/blob/v6.10.0/LICENSE):
+
+```
+All components of this product are Copyright (c) 2016 New Relic, Inc.  All
+rights reserved.
+
+Certain inventions disclosed in this file may be claimed within patents owned or
+patent applications filed by New Relic, Inc. or third parties.
+
+Subject to the terms of this notice, New Relic grants you a nonexclusive,
+nontransferable license, without the right to sublicense, to (a) install and
+execute one copy of these files on any number of workstations owned or
+controlled by you and (b) distribute verbatim copies of these files to third
+parties.  You may install, execute, and distribute these files and their
+contents only in conjunction with your direct use of New Relic’s services.
+These files and their contents shall not be used in conjunction with any other
+product or software, including but not limited to those that may compete with
+any New Relic product, feature, or software. As a condition to the foregoing
+grant, you must provide this notice along with each copy you distribute and you
+must not remove, alter, or obscure this notice.  In the event you submit or
+provide any feedback, code, pull requests, or suggestions to New Relic you
+hereby grant New Relic a worldwide, non-exclusive, irrevocable, transferrable,
+fully paid-up license to use the code, algorithms, patents, and ideas therein in
+our products.
+
+All other use, reproduction, modification, distribution, or other exploitation
+of these files is strictly prohibited, except as may be set forth in a separate
+written license agreement between you and New Relic.  The terms of any such
+license agreement will control over this notice.  The license stated above will
+be automatically terminated and revoked if you exceed its scope or violate any
+of the terms of this notice.
+
+This License does not grant permission to use the trade names, trademarks,
+service marks, or product names of New Relic, except as required for reasonable
+and customary use in describing the origin of this file and reproducing the
+content of this notice.  You may not mark or brand this file with any trade
+name, trademarks, service marks, or product names other than the original brand
+(if any) provided by New Relic.
+
+Unless otherwise expressly agreed by New Relic in a separate written license
+agreement, these files are provided AS IS, WITHOUT WARRANTY OF ANY KIND,
+including without any implied warranties of MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE, or NON-INFRINGEMENT.  As a condition to your use of
+these files, you are solely responsible for such use. New Relic will have no
+liability to you for direct, indirect, consequential, incidental, special, or
+punitive damages or for lost profits or data.
+
+```
+
+### eslint
+
+This product includes source derived from [eslint](https://github.com/eslint/eslint) ([v6.8.0](https://github.com/eslint/eslint/tree/v6.8.0)), distributed under the [MIT License](https://github.com/eslint/eslint/blob/v6.8.0/LICENSE):
+
+```
+Copyright JS Foundation and other contributors, https://js.foundation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+```
+
+### newrelic
+
+This product includes source derived from [newrelic](https://github.com/newrelic/node-newrelic) ([v6.11.0](https://github.com/newrelic/node-newrelic/tree/v6.11.0)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-newrelic/blob/v6.11.0/LICENSE):
+
+```
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -199,3 +347,87 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+```
+
+### semver
+
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v5.7.1](https://github.com/npm/node-semver/tree/v5.7.1)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v5.7.1/LICENSE):
+
+```
+The ISC License
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+```
+
+### superagent
+
+This product includes source derived from [superagent](https://github.com/visionmedia/superagent) ([v3.8.3](https://github.com/visionmedia/superagent/tree/v3.8.3)), distributed under the [MIT License](https://github.com/visionmedia/superagent/blob/v3.8.3/LICENSE):
+
+```
+(The MIT License)
+
+Copyright (c) 2014-2016 TJ Holowaychuk <tj@vision-media.ca>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+```
+
+### tap
+
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v14.10.7](https://github.com/tapjs/node-tap/tree/v14.10.7)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v14.10.7/LICENSE):
+
+```
+The ISC License
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+```
+
+-----
+
+Portions copyright Node.js contributors. Depending on your existing libraries and package management settings,
+your systems may call externally maintained libraries in addition to those listed above.
+See [here](https://nodejs.org/en/docs/meta/topics/dependencies/) and [here](https://github.com/nodejs/node/blob/v4.3.1/LICENSE)
+for additional details regarding externally maintained libraries and certain related licenses and notices.”
