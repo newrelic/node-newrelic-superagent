@@ -1,3 +1,12 @@
+### v6.0.0 (2022-07-27)
+
+* **BREAKING** Removed support for Node 12.
+
+  The minimum supported version is now Node v14. For further information on our support policy, see: https://docs.newrelic.com/docs/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent.
+
+* Added support for Node 18.
+* Resolved several dev-dependency audit warnings.
+
 ### v5.1.1 (2022-02-28)
 
 * Removed versioned tests from npm artifact.
