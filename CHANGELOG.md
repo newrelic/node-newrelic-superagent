@@ -1,3 +1,26 @@
+### v7.0.0 (2023-08-28)
+
+* **BREAKING**: Removed support for Node 14.
+* **BREAKING**: Removed ability to run `@newrelic/superagent` as a standalone package.
+  * This is because in version 10 of Node.js agent, it does not function properly.
+
+* Added support for Node 20.
+
+* Updated vulnerable dependencies:
+  - word-wrap from 1.2.3 to 1.2.4.
+  - protobufjs from 7.2.3 to 7.2.4.
+  - cookiejar from 2.1.3 to 2.1.4.
+  - json5 from 2.2.1 to 2.2.3.
+  - qs from 6.5.2 to 6.5.3.
+
+* Updated README links to point to new forum link due to repolinter ruleset change
+
+* Update README header image to latest OSS office required images
+
+* Fixed dead links in the docs.
+
+* Added lockfile checks to CI workflow to prevent malicious changes
+
 ### v6.0.0 (2022-07-27)
 
 * **BREAKING** Removed support for Node 12.
